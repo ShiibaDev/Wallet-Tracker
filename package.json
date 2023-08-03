@@ -1,14 +1,23 @@
 {
   "name": "wallet-tracker",
+  "productName": "wallet-tracker",
   "version": "1.0.0",
-  "description": "Tracker of your wallet, not waste your money",
-  "main": "index.js",
+  "description": "My Electron application description",
+  "main": "src/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
-  "author": "CDevelopment",
+  "keywords": [],
+  "author": {
+    "name": "ShibaDev",
+    "email": "nekostrim@gmail.com"
+  },
   "license": "MIT",
-  "devDependencies": {
-    "electron": "^25.4.0"
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
